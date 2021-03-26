@@ -11,7 +11,7 @@
 
 body {
   color: black;
-  background-color: white;
+  background-color: #040707;
   margin: 0;
   padding: 0;
 }
@@ -34,5 +34,9 @@ main {
   /* rem = unit relative to the font size on the root element */
   /* 5rem * 16px = 80px */
   margin-left: 5rem;
-  padding: 1rem;
+  /* padding: 1rem; */
+}
+
+ul {
+  list-style-type: none;
 }

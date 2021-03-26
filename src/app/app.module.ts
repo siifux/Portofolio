@@ -9,6 +9,10 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { PortraitsPageComponent } from './portraits-page/portraits-page.component';
 import { FashionPageComponent } from './fashion-page/fashion-page.component';
 import { UrbanPageComponent } from './urban-page/urban-page.component';
+import { GalleryComponentComponent } from './gallery-component/gallery-component.component';
+import { PortraitsComponentComponent } from './portraits-component/portraits-component.component';
+import { FashionComponentComponent } from './fashion-component/fashion-component.component';
+import { UrbanComponentComponent } from './urban-component/urban-component.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +22,10 @@ import { UrbanPageComponent } from './urban-page/urban-page.component';
     PortraitsPageComponent,
     FashionPageComponent,
     UrbanPageComponent,
+    GalleryComponentComponent,
+    PortraitsComponentComponent,
+    FashionComponentComponent,
+    UrbanComponentComponent,
   ],
   imports: [
     BrowserModule,
